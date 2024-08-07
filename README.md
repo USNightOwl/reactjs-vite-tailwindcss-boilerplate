@@ -1,30 +1,87 @@
-# React + TypeScript + Vite
+![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Tailwindcss Boilerplate build with Vite
 
-Currently, two official plugins are available:
+This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, Commitlint, TailwindCSS 3, Eslint and Prettier.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What is inside?
 
-## Expanding the ESLint configuration
+This project uses many tools like:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Vite](https://vitejs.dev)
+- [ReactJS](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Vitest](https://vitest.dev)
+- [Testing Library](https://testing-library.com)
+- [Commitlint gitmoji](https://www.npmjs.com/package/commitlint-config-gitmoji)
+- [Tailwindcss](https://tailwindcss.com)
+- [Eslint](https://eslint.org)
+- [Prettier](https://prettier.io)
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Install
+
+Use this template or clone this repository.
+
+Install dependencies.
+
+```bash
+yarn install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Serve with hot reload at <http://localhost:5173>.
+
+```bash
+yarn run dev
+```
+
+### Lint
+
+```bash
+# check lint
+yarn run lint
+
+# fix lint
+yarn run lint:fix
+```
+
+### Typecheck
+
+```bash
+yarn run typecheck
+```
+
+### Build
+
+```bash
+yarn run build
+```
+
+### Test
+
+### Commitlint 
+#### Structure
+The Gitmoji Structure of commit styles is below
+
+```bash
+:gitmoji: type(scope?): subject
+body?
+footer?
+```
+
+Example
+
+```bash
+:sparkles: feat(changelog): support chinese title
+
+:bug: fix(config): fix a subject bug
+
+:memo: docs: update README.md
+
+:bulb: docs(plugin): update comments
+```
+
+## License
+
+This project is licensed under the MIT License.
