@@ -2,7 +2,7 @@
 
 # React Tailwindcss Boilerplate build with Vite
 
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, Commitlint, TailwindCSS 3, Eslint and Prettier.
+This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Commitlint, TailwindCSS 3, Eslint and Prettier.
 
 ## What is inside?
 
@@ -12,8 +12,7 @@ This project uses many tools like:
 - [ReactJS](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org)
 - [Vitest](https://vitest.dev)
-- [Testing Library](https://testing-library.com)
-- [Commitlint gitmoji](https://www.npmjs.com/package/commitlint-config-gitmoji)
+- [Commitlint Angular Conventional Commit](https://www.npmjs.com/package/@commitlint/config-conventional)
 - [Tailwindcss](https://tailwindcss.com)
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
@@ -62,10 +61,10 @@ yarn run build
 
 ### Commitlint 
 #### Structure
-The Gitmoji Structure of commit styles is below
+The Structure of commit styles is below
 
 ```bash
-:gitmoji: type(scope?): subject
+type(scope?): subject
 body?
 footer?
 ```
@@ -73,13 +72,13 @@ footer?
 Example
 
 ```bash
-:sparkles: feat(changelog): support chinese title
+feat(changelog): support chinese title
 
-:bug: fix(config): fix a subject bug
+fix(config): fix a subject bug
 
-:memo: docs: update README.md
+docs: update README.md
 
-:bulb: docs(plugin): update comments
+docs(plugin): update comments
 ```
 
 ## License
